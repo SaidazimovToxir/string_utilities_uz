@@ -8,7 +8,6 @@ void main() {
   print("Trimmed: '${StringUtilitiesUz.trim(text)}'");
   print("Uppercase: '${StringUtilitiesUz.toUpperCase(text)}'");
   print("Lowercase: '${StringUtilitiesUz.toLowerCase(text)}'");
-  print("Capitalized: '${StringUtilitiesUz.capitalize(text)}'");
   print("Replaced: '${StringUtilitiesUz.replace(text, 'sample', 'example')}'");
   print("Contains 'World': ${StringUtilitiesUz.contains(text, 'World')}");
   print("Truncated: '${StringUtilitiesUz.truncate(text, 20)}'");

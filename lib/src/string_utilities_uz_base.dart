@@ -16,12 +16,6 @@ class StringUtilitiesUz {
     return input.toLowerCase();
   }
 
-  /// Capitalizes the first letter of the string.
-  static String capitalize(String input) {
-    if (input == null || input.isEmpty) return input;
-    return input[0].toUpperCase() + input.substring(1);
-  }
-
   /// Replaces all occurrences of `target` with `replacement` in the string.
   static String replace(String input, String target, String replacement) {
     return input.replaceAll(target, replacement);

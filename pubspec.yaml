@@ -1,7 +1,8 @@
 name: string_utilities_uz
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+homepage: https://github.com/SaidazimovToxir/string_utilities_uz.git
+repository: https://github.com/SaidazimovToxir/string_utilities_uz.git
 
 environment:
   sdk: ^3.4.4

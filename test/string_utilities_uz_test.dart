@@ -15,13 +15,6 @@ void main() {
       expect(StringUtilitiesUz.toLowerCase('HELLO'), 'hello');
     });
 
-    test('capitalize capitalizes the first letter', () {
-      expect(StringUtilitiesUz.capitalize('hello'), 'Hello');
-      expect(StringUtilitiesUz.capitalize('Hello'), 'Hello');
-      expect(StringUtilitiesUz.capitalize(''), '');
-      expect(StringUtilitiesUz.capitalize, null);
-    });
-
     test('replace replaces all occurrences of a substring', () {
       expect(StringUtilitiesUz.replace('hello world', 'world', 'Dart'),
           'hello Dart');
